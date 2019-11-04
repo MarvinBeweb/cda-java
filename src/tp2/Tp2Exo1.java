@@ -10,7 +10,6 @@ public static void main(String[]args){
 		
 		System.out.println("Saisir un entier : ");
 		valeur1 =lecture_clavier.nextInt();
-		//System.out.print("Entier saisi = "+valeur);
 		System.out.println("Saisir une autre entier : ");
 		valeur2 =lecture_clavier.nextInt();
 		System.out.print("La somme des deux valeurs est  = "+(valeur1+valeur2));
