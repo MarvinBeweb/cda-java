@@ -3,7 +3,7 @@ package tp3;
 public class tp3Exo2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int n = 10, p=4;
 		long q = 2111000222;
 		float x = 1.75f;
