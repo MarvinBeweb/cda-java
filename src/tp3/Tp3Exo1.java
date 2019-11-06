@@ -39,7 +39,7 @@ public class Tp3Exo1 {
 		//float
 		System.out.println("Saisir un long entre +/-1.4e-45 et +/-3.4e38 : ");
 		floats =lecture_clavier.nextFloat();
-		System.out.println("long = "+ floats);
+		System.out.println("float = "+ floats);
 		//double
 		System.out.println("Saisir un long entre +/. 4.940e-324 et +/-1.797e308 : ");
 		doubles =lecture_clavier.nextDouble();
