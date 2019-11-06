@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Tp3Exo4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 			  Scanner input = new Scanner(System.in);
 		      System.out.println("Entre une valeur en seconde: ");
 		      int n = input.nextInt();
