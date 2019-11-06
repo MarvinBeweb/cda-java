@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 public class Tp4Exo1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stu
 		String text = JOptionPane.showInputDialog(null,"Nombre de notes ");
 		int nb_notes = Integer.parseInt(text);
 		int moyenne = 0;
