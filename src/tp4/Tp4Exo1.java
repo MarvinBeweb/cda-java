@@ -7,17 +7,15 @@ public class Tp4Exo1 {
 		// TODO Auto-generated method stu
 		String text = JOptionPane.showInputDialog(null,"Nombre de notes ");
 		int nb_notes = Integer.parseInt(text);
-		int moyenne = 0;
-		float moyenne1 = moyenne;
+		float moyenne = 0;
 		
 		for(int i = 1;i <= nb_notes;i++) {
 			String chaine = JOptionPane.showInputDialog(null,"note " + i);
-			int note = Integer.parseInt(chaine);
-			moyenne1 += note ;
+			float note = Float.parseFloat(chaine);
+			moyenne += note ;
 			}
-		JOptionPane.showMessageDialog(null,"La moyenne de ces "+nb_notes+"\n"+" est : "+(moyenne1/nb_notes));
-				
-				//" est " + (moyenne1 /nb_notes));
+		JOptionPane.showMessageDialog(null,"note : "+nb_notes);
+		JOptionPane.showMessageDialog(null,(moyenne/nb_notes));
 
 		}
 	
