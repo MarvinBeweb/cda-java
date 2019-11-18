@@ -41,7 +41,7 @@ public class Tp3Exo1 {
 		floats =lecture_clavier.nextFloat();
 		System.out.println("float = "+ floats);
 		//double
-		System.out.println("Saisir un long entre +/. 4.940e-324 et +/-1.797e308 : ");
+		System.out.println("Saisir un double entre +/. 4.940e-324 et +/-1.797e308 : ");
 		doubles =lecture_clavier.nextDouble();
 		System.out.println("double = "+ doubles);
 		//boolean
@@ -51,9 +51,7 @@ public class Tp3Exo1 {
 		//Varchar
 		System.out.println("Saisir une chaine de caractère");
 		texte =lecture_clavier.next().charAt(0);
-		System.out.println("Char = "+ texte);
-		
-		
+		System.out.println("Char = "+ texte);		
 		lecture_clavier.close();
 		
 	}
